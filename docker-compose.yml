@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  server1:
+    build: .
+    container_name: server-01
+    ports:
+      - "2231:22"
+
+  server2:
+    build: .
+    container_name: server-02
+    ports:
+      - "2232:22"
+
+  server3:
+    build: .
+    container_name: server-03
+    ports:
+      - "2233:22"
+
+  server4:
+    build: .
+    container_name: server-04
+    ports:
+      - "2234:22"
+
+  server5:
+    build: .
+    container_name: server-05
+    ports:
+      - "2235:22"
